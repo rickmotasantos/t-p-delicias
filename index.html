@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/forma-pagamento.css">
+    <link rel="stylesheet" href="./src/css/responsividade.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="src/img/pudim.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dela+Gothic+One&family=Inter:wght@200;800&family=Roboto:wght@100;300;700&display=swap"
+        rel="stylesheet">
+    <title>T&P Delícias</title>
+</head>
+
+<body>
+    <div class="menu-usuario">
+        <ul class="content-menu">
+            <li><a href="">liberar pedido</a></li>
+            <li><a href="">bloquear e desbloear venda</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="topo-video">
+            <video class="video" autoplay loop muted>
+                <source src="./src/video/video-capa.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="topo">
+            <div class="logo"><span class="logo-1">T&P</span> <span class="logo-2">Delícias</span></div>
+        </div>
+    </header>
+
+    <div class="usuario">
+        <a class="icon-usuario" href="#">
+            <img src="src/svg/user-svgrepo-com.svg" alt="imagem do usuario">
+        </a>
+    </div>
+
+    <div class="usuario-cadastro fechada">
+        <div class="content-usuario">
+            <h3>Digite seu nome</h3>
+            <form method="post">
+                <input class="nome" type="text" name="nome" >
+                <button class="btn-cadastrar">cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="itens-delicias">
+        <div class="item-delicia">
+            <div class="img">
+                <img class="imagem" src="src" alt="">
+            </div>
+            <div class="titulo-delicia">
+                <h3 class="nome"></h3>
+                <h5 class="valor">Preço: R$-</h5>
+            </div>
+            <div class="desc-delicia">
+                <p class="text-desc">--</p>
+            </div>
+            <div class="btn-pedido">
+                <a href="" desabled >Fazer Pedido</a>
+            </div>
+        </div>
+
+        <div class="doce-carrinho">
+
+            <div class="img-doce-carrinho">
+                <img class="item-doce-carrinho" src="">
+            </div>
+            <p class="descric-carrinho">--</p>
+
+            <div class="quant-carrinho">
+                <button class="menos-cart">-</button>
+                <div class="quant-cart">1</div>
+                <button class="mais-cart">+</button>
+            </div>
+        </div>
+    </div>
+
+    <main class="content">
+        <div class="titulo-content">
+            <h1>Escolha sua sobremesa</h1>
+        </div>
+
+        <div class="conteudo"></div>
+    </main>
+
+    <div class="modal">
+        <div class="content-modal">
+            <div class="img-modal-left">
+                <img src="" alt="">
+            </div>
+            <div class="modal-right">
+                <div class="nome-doce">
+                    <h3>--</h3>
+                </div>
+
+                <div class="valor-doce">
+                    <p class="preco">Preço</p>
+                    <p class="valor">R$ --</p>
+                </div>
+
+                <div class="quantidade">
+                    <p class="quant">Quantidade</p>
+                    <div class="cont-quant">
+                        <button class="menos">-</button>
+                        <div class="doce-quant">1</div>
+                        <button class="mais">+</button>
+                    </div>
+                </div>
+
+                <div class="adicionar-cancelar">
+                    <div class="adc">Acicionar ao carrinho</div>
+                    <div class="canc">Cancelar</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="carrinho-mobile">
+        <div class="content-carrinho-mobile">
+            <span>0</span>
+            <img src="./src/img/carrinho.png" alt="">
+        </div>
+    </div>
+
+    <div class="carrinho">
+        <div class="btn-fechar-carrinho">
+            <p>x</p>
+        </div>
+        <div class="content-carrinho">
+            <h1>Seus Doces</h1>
+            <div class="cart"></div>
+            <hr>
+
+            <div class="total">
+                <h3>Total</h3>
+                <p class="total-cart">R$ -</p>
+            </div>
+
+            <div class="btn-final-compra">
+                <a class="btn-compra" href="#">Finalizar a Compra</a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="forma-pagamento fechada">
+        <div class="pagamento-content">
+            <h1>Escolha a forma de pagamento</h1>
+            <div class="pagamento">
+                <a class="pagamento-pix" href="#">
+                    <img src="src/img/pix_icon_198027.png" alt="imagem do símbolo do pix">
+                    <h3>pix</h3>
+                </a>
+                <a class="pagamento-cartao" href="#">
+                    <img src="src/img/carduse_card_payment_5122.png" alt="imagem do cartao de credito">
+                    <h3>Cartão</h3>
+                </a>
+                <a class="pagamento-dinheiro" href="#">
+                    <img src="src/img/dollar-coin-money_icon-icons.com_56177.png"no alt="imagem do dinheiro">
+                    <h3>Dinheiro</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="pix fechada">
+        <div class="content-pix">
+            <p class="btn-fechar"><a class="fechar" href="#">x</a></p>
+            <h2>Escaneie ou copie o Qr-code</h2>
+            <div class="valor-total"> <span>Total</span> <p>R$ -</p></div>
+            <div class="qr-pix">
+                <img src="src/img/qr-codw.jpg" alt="imagem do qr code">
+            </div>
+            <div class="code-pix">
+                <input class="code-qr-code" type="text" value="00020101021126360014br.gov.bcb.pix0114+55219882813305204000053039865802BR5922Ricardo Santos da Mota6009SAO PAULO622905251HNV42Y850TZT7THPYXGH6ZJ36304E59A">
+            </div>
+            <button class="btn-copiar">Copiar</button>
+            <div class="mensagem-copiado fechada">
+                <p>chave copiada!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cartao fechada">
+        <div class="content-cartao">
+            <p class="btn-fechar"><a class="fechar-cartao" href="#">x</a></p>
+            <div class="aviso">
+                <div class="img">
+                    <img src="src/img/alert.png" alt="imagem de exclamação de alerta">
+                </div>
+                <p>O pagamento via <strong style="color: black;">cartão</strong> apenas no ato da entrega ou retirada do pedido.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="dinheiro fechada">
+        <div class="content-dinheiro">
+            <p class="btn-fechar">
+                <a class="fechar-dinheiro" href="#">x</a>
+                <div class="aviso">
+                    <div class="img">
+                        <img src="src/img/alert.png" alt="imagem de exclamação de alerta">
+                    </div>
+                    <p>O pagamento via <strong style="color: black;">Dinheiro</strong> apenas no ato da entrega ou retirada do pedido.</p>
+                </div>
+            </p>
+        </div>
+    </div>
+     </div>
+    <script src="./src/js/doces.js"></script>
+    <script src="./src/js/item-doce.js"></script>
+    <script src="./src/js/modal.js"></script>
+</body>
+
+</html>

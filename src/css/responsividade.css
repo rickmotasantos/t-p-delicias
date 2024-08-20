@@ -1,0 +1,108 @@
+@media (max-width: 780px){
+    .carrinho-mobile {
+        display: flex;
+    }
+
+    .carrinho {
+        top: 70px;
+        left: 100vw;
+    }
+
+    .usuario {
+        margin-top: 100px;
+    }
+
+}
+@media (max-width: 700px){
+    header, .topo, .topo-video {
+        height: 300px;
+    }
+
+    .content .titulo-content {
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .topo .logo .logo-1 {
+        font-size: 70px;
+    }
+
+    .topo .logo .logo-2 {
+        font-size: 25px;
+        margin-left: -10px;
+    }
+
+    .content .titulo-content {
+        font-size: 15px;
+    }
+
+    .content .itens-delicias .item-delicia {
+        max-width: 500px;
+        margin-bottom: 25px;
+    }
+
+    .item-delicia .img {
+        width: 250px;
+    }
+
+    .item-delicia .titulo-delicia h3 {
+        font-size: 25px;
+    }
+
+    .item-delicia .titulo-delicia h5 {
+        font-size: 20px;
+    }
+
+    .itens-delicias .item-delicia .desc-delicia {
+        font-size: 18px;
+    }
+
+    .content .conteudo .item-delicia {
+        max-width: 300px;
+    }
+
+    .modal {
+        backdrop-filter: blur(11.2);
+    }
+}
+
+/*modal*/
+
+@media (max-width:570px){
+    .modal .content-modal {
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .modal .content-modal .img-modal-left{
+        margin-left: 0;
+        margin-top: 15px;
+        height: 200px;
+    }
+
+    .modal .content-modal .modal-right {
+        align-items: center;
+    }
+
+    .carrinho {
+        width: 100vw;
+    }
+
+    .btn-fechar-carrinho p {
+        display: flex;
+        margin-left: -50px;
+    }
+
+    .forma-pagamento {
+        width: 100vw;
+    }
+
+    .pagamento-content,
+    .pix .content-pix,
+    .cartao .content-cartao,
+    .dinheiro .content-dinheiro {
+        width: 300px;
+    }
+}

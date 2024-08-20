@@ -1,0 +1,178 @@
+
+.forma-pagamento,
+.pix,
+.cartao,
+.dinheiro {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(13.5px);
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    transition: all .5s ease-in;
+}
+
+.pagamento-content,
+.pix .content-pix,
+.cartao .content-cartao,
+.content-dinheiro {
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    transition: all .5s ease-in;
+}
+
+.pagamento-content h1 {
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.pagamento-content .pagamento a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 300px;
+}
+
+.pagamento-content .pagamento a h3 {
+    text-transform: uppercase;
+    color: #000;
+}
+
+.pagamento-content .pagamento img {
+    width: 50px;
+}
+
+.btn-fechar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+.btn-fechar a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+
+.pix .content-pix {
+    transition: all .4s ease-in;
+}
+
+.pix .content-pix h2 {
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.pix .content-pix .valor-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}   
+
+.pix .content-pix .valor-total span {
+    color: #000;
+    font-weight: bolder;
+}
+
+.pix .content-pix .valor-total p{
+    color: #000;
+    margin: 15px 0;
+}
+
+.pix .content-pix .qr-pix {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+
+.pix .content-pix .qr-pix img {
+    height: 100%;
+}
+
+.pix .content-pix .code-pix {
+    max-width: 350px;
+    margin: 15px 0;
+}
+
+.pix .content-pix .code-pix input[type="text"]{
+    color: #000;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.pix .content-pix .btn-copiar {
+    padding: 8px 25px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mensagem-copiado {
+    background-color: rgb(97, 153, 13);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all .4s ease-in;
+}
+
+.mensagem-copiado p {
+    margin: 8px;
+}
+
+.aviso { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aviso .img {
+    width: 100px;
+    height: 100px;
+}
+
+.aviso .img img {
+    height: 100%;
+}
+
+.aviso p {
+    color: #000;
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+}
+
+.fechada {
+    display: none;
+}
+
